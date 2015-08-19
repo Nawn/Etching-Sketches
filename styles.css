@@ -1,0 +1,23 @@
+#drawSpace {
+	width: 960px;
+	overflow:auto;
+	margin:auto;
+}
+
+.drawBlock {
+	background-color:black;
+	float:left;
+	border: 1px solid white;
+}
+
+.newLine {
+	clear:both;
+}
+
+.drawBlockLit {
+	background-color:blue;
+}
+
+h3 {
+	text-align:center;
+}
