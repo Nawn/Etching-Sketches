@@ -25,4 +25,9 @@ $(document).ready(function () {
 	{
 		alert("No, too crazy, try again!");
 	}
-})
+});
+
+function GridReset()
+{
+	
+};

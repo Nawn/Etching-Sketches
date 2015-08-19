@@ -21,3 +21,13 @@
 h3 {
 	text-align:center;
 }
+
+button {
+	height:50px;
+	width:150px;
+}
+
+.buttons {
+	width:150px;
+	margin:auto;
+}
