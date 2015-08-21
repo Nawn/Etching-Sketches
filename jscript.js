@@ -26,6 +26,9 @@ var CreateGrid = function (option) {
 				case 2:
 					$(this).css("background-color", getRandomColor());
 					break;
+				case 3:
+					$(this).fadeTo('slow', "-=0.25");
+					break;
 			}
 			
 		});
