@@ -1,4 +1,4 @@
-$(document).ready(function () {
+var CreateGrid = function (option) {
 	$('#drawSpace').html("");
 	
 	var gridSize = prompt("Enter Integer between 1 and 100:");
@@ -18,16 +18,19 @@ $(document).ready(function () {
 		$('.drawBlock').css('height', blockSize);
 		
 		$('.drawBlock').mouseover(function () {
-			$(this).addClass('drawBlockLit')
+			switch (option){
+				case 1:
+					$(this).addClass('drawBlockLit');
+					break;
+				case 2:
+					console.log("touched");
+					break;
+			}
+			
 		});
 	}
 	else
 	{
 		alert("No, too crazy, try again!");
 	}
-});
-
-function GridReset()
-{
-	
 };
